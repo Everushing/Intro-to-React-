@@ -1,0 +1,108 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.darkMode {
+  background-color: #222;
+  color: #fff;
+}
+
+.lightMode {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Homepage layout */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Search bar styles */
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.searchBar input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.searchBar button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.searchBar button:hover {
+  opacity: 0.8;
+}
+
+/* Add an icon using a font or image if desired */
+.searchBar button::before {
+  content: "\f002"; /* Font Awesome for magnifying glass icon (replace with your icon) */
+  font-family: FontAwesome; /* Replace with your chosen font family */
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+/* Employee list styles */
+.employee-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.employee-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.employee-list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.employee-list-item h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.employee-list-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.employee-list-item li {
+  margin-bottom: 5px;
+}
